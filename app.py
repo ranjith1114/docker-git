@@ -5,7 +5,7 @@ app = Flask(__name__)
 def hello(): 
     return "welcome to the flask tutorials"
 
-@app.route('/hello') 
+@app.route('/hi') 
 def helloo(): 
     return "welcome!!"
   
